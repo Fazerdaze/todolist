@@ -1,0 +1,22 @@
+
+.goal .delete{
+float: right;
+color: rgb(230, 230, 230);
+cursor: pointer;
+display: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-right: 5px;
+}
+
+.goal:hover .delete{
+    display: inline-block;
+}
+
+.goal_done{
+    text-decoration: line-through;
+}
+
+.goal:hover {
+    background-color: rgba(95, 95, 95);
+}
+
